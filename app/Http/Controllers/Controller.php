@@ -25,6 +25,6 @@ class Controller extends BaseController
     }
     
     public function fazerLogin(){
-        echo "Tela Login";
+        return view('user.login');
     }
 }
